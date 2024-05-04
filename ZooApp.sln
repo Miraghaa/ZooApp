@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooApp", "ZooApp\ZooApp.csproj", "{4EFFB45B-0D61-4E88-9CDB-7F9A1B8619DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooCore", "ZooCore\ZooCore.csproj", "{348E2F21-FA1F-4AA3-BB14-F331E9D1F04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooBuissness", "ZooBuissness\ZooBuissness.csproj", "{76D9AB62-2DB2-4403-99D4-16B51D5D2355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EFFB45B-0D61-4E88-9CDB-7F9A1B8619DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFFB45B-0D61-4E88-9CDB-7F9A1B8619DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFFB45B-0D61-4E88-9CDB-7F9A1B8619DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFFB45B-0D61-4E88-9CDB-7F9A1B8619DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348E2F21-FA1F-4AA3-BB14-F331E9D1F04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348E2F21-FA1F-4AA3-BB14-F331E9D1F04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348E2F21-FA1F-4AA3-BB14-F331E9D1F04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348E2F21-FA1F-4AA3-BB14-F331E9D1F04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D9AB62-2DB2-4403-99D4-16B51D5D2355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D9AB62-2DB2-4403-99D4-16B51D5D2355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D9AB62-2DB2-4403-99D4-16B51D5D2355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D9AB62-2DB2-4403-99D4-16B51D5D2355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF13931E-E4CE-4C73-894D-FCE5C72E8EF8}
+	EndGlobalSection
+EndGlobal
