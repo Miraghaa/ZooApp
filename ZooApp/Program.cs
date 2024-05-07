@@ -1,7 +1,7 @@
 ﻿using ZooCore.Models;
 List<User> users = new List<User>();
+List<Zooshop> salees = new List<Zooshop>();
 List<Zooshop> zooshops = new List<Zooshop>();
-Sales sales = new Sales();
 Register:
 Console.WriteLine("Xos gelmissiniz ilk once qeydiyatdan kecey");
 User user = new User();
@@ -19,6 +19,7 @@ Console.WriteLine("Password");
 string password = Console.ReadLine();
 if (user.UserName == userName && user.Password == password)
 {
+    Sales sales = new Sales();
     Console.WriteLine($"Daxil oldunuz {user.Role}");
     switch (user.Role)
     {
@@ -31,6 +32,7 @@ if (user.UserName == userName && user.Password == password)
             Console.WriteLine("4. Idye gore baxin");
             Console.WriteLine("5. Register menyusu");
             Console.WriteLine("6. Login menyusu");
+            Console.WriteLine("7. Satilan mehsullar");
             int a = int.Parse(Console.ReadLine());
             while (a != 0)
             {
@@ -57,6 +59,9 @@ if (user.UserName == userName && user.Password == password)
                         goto Register;
                     case 6:
                         goto Login;
+                        case 7:
+                            sales.GetSales(salees);
+                        break;
                     default:
                         Console.WriteLine("Sagol");
                         break;
@@ -84,7 +89,7 @@ if (user.UserName == userName && user.Password == password)
                     case 2:
                         Console.WriteLine("Mehsulun adini yazin");
                         string productName = Console.ReadLine();
-                        sales.Saless(zooshops, productName);
+                        sales.Saless(zooshops, salees,productName);
                         break;
                     case 3:
                         goto Register;
